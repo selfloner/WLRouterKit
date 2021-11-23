@@ -1,0 +1,6 @@
+framework module WLRouter {
+  umbrella header "WLRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

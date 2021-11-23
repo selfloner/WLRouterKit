@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WLRouter_Tests' do
+  pod 'WLRouter', :path => '../'
+  
+  
+end
