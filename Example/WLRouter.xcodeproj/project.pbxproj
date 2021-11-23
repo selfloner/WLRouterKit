@@ -16,10 +16,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09730F72430B24D1020E43DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		09730F72430B24D1020E43DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		19FBCF92EAC84610A99C3991 /* Pods-WLRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLRouter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WLRouter_Tests/Pods-WLRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2A7274925B3938BEAB424E1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2BDC255AF3A71E704E3E1295 /* WLRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WLRouter.podspec; path = ../WLRouter.podspec; sourceTree = "<group>"; };
+		2A7274925B3938BEAB424E1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2BDC255AF3A71E704E3E1295 /* WLRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WLRouter.podspec; path = ../WLRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3AF76948D6BDC203010C051E /* Pods-WLRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLRouter_Tests.release.xcconfig"; path = "Target Support Files/Pods-WLRouter_Tests/Pods-WLRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,7 +54,6 @@
 				19FBCF92EAC84610A99C3991 /* Pods-WLRouter_Tests.debug.xcconfig */,
 				3AF76948D6BDC203010C051E /* Pods-WLRouter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
